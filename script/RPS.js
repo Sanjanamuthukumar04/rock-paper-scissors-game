@@ -23,11 +23,6 @@ function autoPlay(){
         isAutoPlaying=false;
         document.querySelector(".auto-play-button").innerHTML='Auto Play';
         }
-    
-etInterval(function(){
-        const playerMove=pickCompMove();
-        playGame(playerMove);
-    }, 1000);
 }
 
 function playGame(playerMove){
